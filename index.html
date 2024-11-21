@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Design</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #12163c;
+            color: white;
+            background-image: url("/image/bg_header.jpg")
+        }
+        .navbar{
+            width: 70%;
+            background-color: #e02424;
+            display: flex;
+            margin: 20px auto;
+            padding: 20px;
+            position: relative;
+            border-radius: 3px;
+        }
+        .navbar .logo-image{
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            align-items: center;
+            width: 50%;
+            width: 120px;
+            height: 50px;
+        }
+        .navbar .menu {
+            margin-top: 15px;
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+            width: 50%;
+            justify-content: space-between;
+        }
+        .navbar .menu a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar .menu a:hover {
+            border-bottom: solid 2px #f39c12;
+        }
+        .content{
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .content h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .content h1 span {
+            color: #e02424;
+        }
+        .content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+        .content .cta{
+            background-color: #e02424;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .content .cta:hover {
+            background-color: #d01717;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+            <img class="logo-image" src="image/logo.png"></img>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Project</a>
+            <a href="#">Blog/News</a>
+            <a href="#">Shop</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Think big <span>We  do.</span></h1>
+        <p>Capitalise on low hanging fruit to identify a ballpark.</p>
+        <button class="cta">Our Portfolio</a>
+    </div>
+</body>
+</html>
